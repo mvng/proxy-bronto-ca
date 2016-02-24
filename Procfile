@@ -1,1 +1,2 @@
-web: gunicorn flask_rest_service:app
+web: node index.js
+
