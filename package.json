@@ -1,13 +1,17 @@
 {
-  "name": "node-js-sample",
+  "name": "proxy-bronto-ca",
   "version": "0.2.0",
-  "description": "A sample Node.js app using Express 4",
+  "description": "a serverside proxy for bronto api calls",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.13.3"
+    "body-parser": "^1.15.0",
+    "dotenv": "^2.0.0",
+    "express": "^4.13.3",
+    "soap": "^0.13.0",
+    "xmlhttprequest": "^1.8.0"
   },
   "engines": {
     "node": "4.0.0"
@@ -21,9 +25,6 @@
     "heroku",
     "express"
   ],
-  "author": "Mark Pundsack",
-  "contributors": [
-    "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)"
-  ],
+  "author": "Matthew Nguyen",
   "license": "MIT"
 }
