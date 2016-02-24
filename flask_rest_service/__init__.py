@@ -12,6 +12,7 @@ if not MONGO_URL:
 app = Flask(__name__)
 
 app.config['MONGO_URI'] = MONGO_URL
+mongo = PyMongo(app)
 
 def output_json(obj, code, headers=None):
     resp = make_response(dumps(obj), code)
